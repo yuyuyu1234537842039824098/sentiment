@@ -137,9 +137,13 @@ pickle.dump(LinearSVC_classifier, save_classifier)
 save_classifier.close()
 
 
-##NuSVC_classifier = SklearnClassifier(NuSVC())
-##NuSVC_classifier.train(training_set)
-##print("NuSVC_classifier accuracy percent:", (nltk.classify.accuracy(NuSVC_classifier, testing_set))*100)
+NuSVC_classifier = SklearnClassifier(NuSVC())
+NuSVC_classifier.train(training_set)
+print("NuSVC_classifier accuracy percent:", (nltk.classify.accuracy(NuSVC_classifier, testing_set))*100)
+
+save_classifier = open("NuSVC_classifier5k.pickle","wb")
+pickle.dump(NuSVC_classifier, save_classifier)
+save_classifier.close()
 
 
 SGDC_classifier = SklearnClassifier(SGDClassifier())
