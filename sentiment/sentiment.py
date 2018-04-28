@@ -149,3 +149,8 @@ print("SGDClassifier accuracy percent:",nltk.classify.accuracy(SGDC_classifier, 
 save_classifier = open("SGDC_classifier5k.pickle","wb")
 pickle.dump(SGDC_classifier, save_classifier)
 save_classifier.close()
+
+
+
+
+
