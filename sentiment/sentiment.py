@@ -42,14 +42,14 @@ documents = []
 
 
 #  j is adject, r is adverb, and v is verb
-#allowed_word_types = ["J"]
+allowed_word_types = ["J"]
 
 for p in short_pos.split('\n'):
     documents.append( (p, "pos") )
     words = word_tokenize(p)
     pos = nltk.pos_tag(words)
     for w in pos:
-        #if w[1][0] in allowed_word_types:
+        if w[1][0] in allowed_word_types:
             all_words.append(w[0].lower())
     
 for p in short_neg.split('\n'):
@@ -57,7 +57,7 @@ for p in short_neg.split('\n'):
     words = word_tokenize(p)
     pos = nltk.pos_tag(words)
     for w in pos:
-       # if w[1][0] in allowed_word_types:
+        if w[1][0] in allowed_word_types:
             all_words.append(w[0].lower())
 
 
