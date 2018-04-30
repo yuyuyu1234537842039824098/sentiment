@@ -1,0 +1,26 @@
+/usr/local/lib/python2.7/dist-packages/sklearn/linear_model/stochastic_gradient.py:128: FutureWarning: max_iter and tol parameters have been added in <class 'sklearn.linear_model.stochastic_gradient.SGDClassifier'> in 0.19. If both are left unset, they default to max_iter=5 and tol=None. If tol is not None, max_iter defaults to max_iter=1000. From 0.21, default max_iter will be 1000, and default tol will be 1e-3.
+  "and default tol will be 1e-3." % type(self), FutureWarning)
+10664
+('Original Naive Bayes Algo accuracy percent:', 70.18072289156626)
+Most Informative Features
+              engrossing = True              pos : neg    =     21.2 : 1.0
+                  stupid = True              neg : pos    =     17.5 : 1.0
+                mediocre = True              neg : pos    =     16.2 : 1.0
+              unexpected = True              pos : neg    =     15.1 : 1.0
+                  unique = True              pos : neg    =     13.8 : 1.0
+              refreshing = True              pos : neg    =     13.8 : 1.0
+                mindless = True              neg : pos    =     11.6 : 1.0
+               wonderful = True              pos : neg    =     11.1 : 1.0
+                    warm = True              pos : neg    =     11.1 : 1.0
+                    dull = True              neg : pos    =     10.6 : 1.0
+                tiresome = True              neg : pos    =     10.3 : 1.0
+                annoying = True              neg : pos    =     10.3 : 1.0
+              delightful = True              pos : neg    =      9.9 : 1.0
+                     wry = True              pos : neg    =      9.7 : 1.0
+             mesmerizing = True              pos : neg    =      9.7 : 1.0
+('MNB_classifier accuracy percent:', 70.18072289156626)
+('BernoulliNB_classifier accuracy percent:', 70.33132530120481)
+('LogisticRegression_classifier accuracy percent:', 69.87951807228916)
+('LinearSVC_classifier accuracy percent:', 69.12650602409639)
+('NuSVC_classifier accuracy percent:', 69.7289156626506)
+('SGDClassifier accuracy percent:', 68.52409638554217)
